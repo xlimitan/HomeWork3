@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
 
     }
 
@@ -88,6 +89,22 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
+        short excessWeight = 7000;
+        short theFirstOption = 250;
+        short theSecondOption = 500;
+        short dayFirstOption = (short) (excessWeight / theFirstOption);
+        System.out.println("Первый вариант - " + dayFirstOption + " дней");
+        short daySecondOption = (short) (excessWeight / theSecondOption);
+        System.out.println("Второй вариант - " + daySecondOption + " дней");
+        short averageDays = (short) ((dayFirstOption + daySecondOption) / 2);
+        System.out.println("В среднем понадобиться - " + averageDays + " день");
+
+
+    }
+    public static void task8 () {
+        System.out.println("Задача 8");
+
+
 
     }
 }
