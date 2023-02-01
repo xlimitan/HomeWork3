@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static void task1 () {
-        System.out.println("Задача 1");
+        System.out.println("Задача 1.1.");
         byte one = 1;
         short two = 2;
         int three = 3;
