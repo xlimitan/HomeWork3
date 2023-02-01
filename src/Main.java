@@ -5,6 +5,8 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
+        task7();
 
     }
 
@@ -67,4 +69,25 @@ public class Main {
         byte totalCansBrawnPaint = (byte) (totalClasses * brownPaintForOneClass);
         System.out.println("В школе, где " + totalClasses + (" классов, нужно ") + totalCansWhitePaint + (" банок белой краски и ") + totalCansBrawnPaint + (" банок коричневой краски."));
     }
+    public static void task6 () {
+        System.out.println("Задача 6");
+        byte totalBananas = 5;
+        byte weightOfOneBanana = 80;
+        byte totalMilk = 2;
+        byte oneServingOfMilk = 105;
+        byte iceCream = 2;
+        byte onePackIceCream = 100;
+        byte eggs = 4;
+        byte egg = 70;
+        short totalWeightGrams = (short) ((totalBananas * weightOfOneBanana) + (totalMilk * oneServingOfMilk) + (iceCream * onePackIceCream) + (eggs * egg) + 0.0000001);
+        System.out.println("Вес завтрака - " + totalWeightGrams + " грамм");
+        float totalWeightKilogram = (float) (totalWeightGrams) / 1000;
+        System.out.println("Вес завтрака - " + totalWeightKilogram + " килограмм");
+
+
     }
+    public static void task7 () {
+        System.out.println("Задача 7");
+
+    }
+}
