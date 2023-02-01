@@ -11,8 +11,8 @@ public class Main {
         short two = 2;
         int three = 3;
         long four = 4;
-        float five = 5f;
-        double six = 6d;
+        float five = 5F;
+        double six = 6D;
         System.out.println("Значение переменной one с типом byte равно " + one);
         System.out.println("Значение переменной two с типом byte равно " + two);
         System.out.println("Значение переменной three с типом byte равно " + three);
@@ -22,7 +22,13 @@ public class Main {
         }
     public static void task2 () {
         System.out.println("Задача 2");
-        
+        float one = 27.12F;
+        long two = 987_678_965_549L;
+        float three = 2.786F;
+        short four = 569;
+        short five = -159;
+        short six = 27897;
+        byte seven = 67;
     }
 
 }
