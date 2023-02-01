@@ -103,8 +103,23 @@ public class Main {
     }
     public static void task8 () {
         System.out.println("Задача 8");
-
-
-
+        int monthlySalaryMasha = 67_760;
+        int monthlySalaryDenis = 83_690;
+        int monthlysalaryKrisina = 76_230;
+        int newSalaryCalculationMasha = monthlySalaryMasha / 100 * 110;
+        int oldYearSalaryMasha = monthlySalaryMasha * 12;
+        int newYearSalaryMasha = newSalaryCalculationMasha * 12;
+        int differenceMasha = newYearSalaryMasha - oldYearSalaryMasha;
+        System.out.println("Маша теперь получает " + newSalaryCalculationMasha + (" рублей. Годовой доход вырос на ") + differenceMasha + (" рублей"));
+        int newSalaryCalculationDenis = monthlySalaryDenis / 100 * 110;
+        int oldYearSalaryDenis = monthlySalaryDenis * 12;
+        int newYearSalaryDenis = newSalaryCalculationDenis * 12;
+        int differenceDenis = newYearSalaryDenis - oldYearSalaryDenis;
+        System.out.println("Денис теперь получает " + newSalaryCalculationDenis + (" рублей. Годовой доход вырос на ") + differenceDenis + (" рублей"));
+        int newSalaryCalculationKristina = monthlysalaryKrisina / 100 * 110;
+        int oldYearSalaryKristina = monthlysalaryKrisina * 12;
+        int newYearSalaryKristina = newSalaryCalculationKristina * 12;
+        int differenceKristina = newYearSalaryKristina - oldYearSalaryKristina;
+        System.out.println("Кристина теперь получает " + newSalaryCalculationKristina + (" рублей. Годовой доход вырос на ") + differenceKristina + (" рублей"));
     }
 }
